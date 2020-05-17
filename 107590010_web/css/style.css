@@ -1,0 +1,177 @@
+html{
+    width: 100%;
+}
+
+.bg{
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+}
+
+@media (min-width: 1280px){
+    .head p{
+        color: white;
+        font-size: 14px;
+        margin: 1vh 1vw;
+    }
+    .content1 .title{
+        color: #00ffff;
+        font-size: 12px;
+    }
+
+    .content1 .info{
+        color: white;
+        font-size: 8px;
+    }
+
+    .content2 .title{
+        color: #2b78e4;
+        font-size: 4px;
+    }
+
+    .content2 .info{
+        color: white;
+        font-size: 4px;
+    }
+
+    .content3 .title{
+        color: white;
+        font-size: 4px;
+    }
+
+    .content4 .title{
+        color: white;
+        font-size: 4px;
+    }
+
+    .content5 .title{
+        color: white;
+        font-size: 4px;
+    }
+
+    .foot p{
+        font-size: 6px;
+    }
+}
+
+@media (min-width: 768px){
+    .head p{
+        color: white;
+        font-size: 20px;
+        margin: 1vh 1vw;
+    }
+
+    .content1 .title{
+        color: #00ffff;
+        font-size: 18px;
+    }
+
+    .content1 .info{
+        color: white;
+        font-size: 12px;
+    }
+
+    .content2 .title{
+        color: #2b78e4;
+        font-size: 14px;
+    }
+
+    .content2 .info{
+        color: white;
+        font-size: 8px;
+    }
+
+    .content3 .title{
+        color: white;
+        font-size: 10px;
+    }
+
+    .content4 .title{
+        color: white;
+        font-size: 10px;
+    }
+
+    .content5 .title{
+        color: white;
+        font-size: 10px;
+    }
+
+    .foot p{
+        font-size: 6px;
+    }
+}
+
+@media (min-width: 320px){
+    .head p{
+        color: white;
+        font-size: 26px;
+        margin: 1vh 1vw;
+    }
+
+    .content1 .title{
+        color: #00ffff;
+        font-size: 24px;
+    }
+
+    .content1 .info{
+        color: white;
+        font-size: 18px;
+    }
+
+    .content2 .title{
+        color: #2b78e4;
+        font-size: 20px;
+    }
+
+    .content2 .info{
+        color: white;
+        font-size: 14px;
+    }
+
+    .content3 .title{
+        color: white;
+        font-size: 16px;
+    }
+
+    .content4 .title{
+        color: white;
+        font-size: 16px;
+    }
+
+    .content5 .title{
+        color: white;
+        font-size: 16px;
+    }
+
+    .foot p{
+        font-size: 12px;
+    }
+}
+
+
+.navbar{
+    background-color: black;
+    opacity: 65%;
+}
+
+li a{
+    width: 100%;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 20px;
+    color:white;
+    padding: 1vh 3vw;
+}
+
+ul a:hover{
+    background-color: white;
+    color: rgba(0,0,0,1);
+}
+
+.icon a i{
+    width: 24px;
+    height: 24px;
+}
+
+.foot{
+    background-color: black;
+}
